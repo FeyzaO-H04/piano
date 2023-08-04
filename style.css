@@ -1,0 +1,136 @@
+body{
+  background: linear-gradient(rgb(36, 36, 36),rgb(114, 114, 114));
+}
+  
+#main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.85;
+}
+
+#container{
+  width: 60%;
+  min-width: 1132px;
+  height: 430px;
+  background-image: url("piano-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+button{
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  position: absolute;
+}
+
+#q-btn{
+  top: 170px;
+  left: 58px;
+}
+#w-btn{
+  top: 170px;
+  left: 143px;
+}
+#e-btn{
+  top: 170px;
+  left: 230px;
+}
+#r-btn{
+  top: 170px;
+  left: 380px;
+}
+#t-btn{
+  top: 170px;
+  left: 466px;
+}
+#y-btn{
+  top: 170px;
+  left: 623px;
+}
+#u-btn{
+  top: 170px;
+  left: 708px;
+}
+#i-btn{
+  top: 170px;
+  left: 795px;
+}
+#o-btn{
+  top: 170px;
+  left: 946px;
+}
+#p-btn{
+  top: 170px;
+  left: 1031px;
+}
+
+.blue-btn{
+  background-color: rgb(78, 112, 134);
+  color: white;
+}
+#a-btn{
+  top: 335px;
+  left: 22px;
+}
+#s-btn{
+  top: 335px;
+  left: 103px;
+}
+#d-btn{
+  top: 335px;
+  left: 184px;
+}
+#f-btn{
+  top: 335px;
+  left: 265px;
+}
+#g-btn{
+  top: 335px;
+  left: 346px;
+}
+#h-btn{
+  top: 335px;
+  left: 426px;
+}
+#j-btn{
+  top: 335px;
+  left: 506px;
+}
+#k-btn{
+  top: 335px;
+  left: 587px;
+}
+#l-btn{
+  top: 335px;
+  left: 668px;
+}
+#z-btn{
+  top: 335px;
+  left: 749px;
+}
+#x-btn{
+  top: 335px;
+  left: 830px;
+}
+#c-btn{
+  top: 335px;
+  left: 910px;
+}
+#v-btn{
+  top: 335px;
+  left: 991px;
+}
+#b-btn{
+  top: 335px;
+  left: 1071px;
+}
