@@ -135,58 +135,6 @@ window.addEventListener("keydown", (e) => {
 
 
 
-/************************************************************************
- 
-
-
- Jeg har prøvd å lage alt på JavaScript, det er ikke ferdig ennå.
- 
-// main
-
-const main = document.createElement("div");
-main.classList.add("main");
-main.style.display = "flex";
-main.style.alignItems = "center";
-main.style.justifyContent = "center";
-main.style.height = "100vh";
-main.style.width = "100%";
-main.style.opacity = "0.85";
-main.style.background = "linear-gradient(rgb(36, 36, 36),rgb(114, 114, 114))";
-// Appending main
-document.body.append(main);
-
-// container
-const container = document.createElement("div");
-container.classList.add("container");
-container.style.width = "60%";
-container.style.minWidth = "1132px";
-container.style.height = "430px";
-container.style.backgroundImage = "url('piano-image.png')";
-container.style.backgroundRepeat = "noRepeat";
-container.style.backgroundSize = "cover";
-container.style.backgroundPosition = "center";
-container.style.position = "relative";
-container.style.opacity = "0.8";
-container.style.borderRadius = "8px";
-// Appending container
-main.append(container);
-
-// q-button
-const qButton = document.createElement("button");
-qButton.textContent = "Q"
-// Appending q-button
-container.append(qButton);
-
-const buttons = [
-  {
-    buttonName : "Q",
-  }
-  
-]
-
-********************************************************************/
-
-
 
 
 
